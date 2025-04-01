@@ -1,8 +1,11 @@
 {% extends 'base.html'%}
 
     {% block content %}
-    <h1>Home</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+<main class="container py-5">
+    <section class="card card-body">     
+        <h1 class="display-1" text-center>Django app</h1>   
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         A tempore illum ratione necessitatibus enim, repellat veniam, neque odio culpa, 
         tenetur distinctio minus maxime. Minus explicabo repellendus nemo consequuntur, 
         omnis ratione doloremque vero similique molestias distinctio eveniet ipsa quam porro libero,
@@ -11,4 +14,17 @@
         aperiam beatae expedita sint natus. Recusandae distinctio asperiores perferendis fuga corporis quasi 
         excepturi dignissimos illum, delectus veritatis, laboriosam dolorum veniam ex dolores tempora! Eius natus 
         tempora nostrum mollitia voluptates quibusdam ea perferendis est esse!</p>
+
+        <div class="text-center">
+            <a class="btn btn-primary" href="/signin/">
+                Signin
+            </a>
+            <a class="btn btn-primary" href="/signup/">
+                Signup
+            </a>
+        </div>
+    </section>
+</main>
+
+
     {% endblock %}
