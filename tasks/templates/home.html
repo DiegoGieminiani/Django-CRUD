@@ -1,30 +1,20 @@
-{% extends 'base.html'%}
-
-    {% block content %}
+{% extends 'base.html'%} {% block content %}
 <main class="container py-5">
-    <section class="card card-body">     
-        <h1 class="display-1" text-center>Django app</h1>   
+  <section class="card card-body">
+    <h1 class="display-1" text-center>Django app</h1>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        A tempore illum ratione necessitatibus enim, repellat veniam, neque odio culpa, 
-        tenetur distinctio minus maxime. Minus explicabo repellendus nemo consequuntur, 
-        omnis ratione doloremque vero similique molestias distinctio eveniet ipsa quam porro libero,
-        animi iusto maiores. Omnis autem, voluptatem ducimus reprehenderit in itaque reiciendis rerum aliquam eos, 
-        sed corporis eligendi labore amet quibusdam veniam voluptatibus commodi minima nulla debitis, 
-        aperiam beatae expedita sint natus. Recusandae distinctio asperiores perferendis fuga corporis quasi 
-        excepturi dignissimos illum, delectus veritatis, laboriosam dolorum veniam ex dolores tempora! Eius natus 
-        tempora nostrum mollitia voluptates quibusdam ea perferendis est esse!</p>
+    <p>
+      Bienvenido a tu organizador de tareas. Esta aplicación te permite crear,
+      editar, completar y eliminar tus pendientes de forma rápida y sencilla.
+      Ideal para mantenerte enfocado y llevar un mejor control de tus
+      actividades diarias.
+    </p>
 
-        <div class="text-center">
-            <a class="btn btn-primary" href="/signin/">
-                Signin
-            </a>
-            <a class="btn btn-primary" href="/signup/">
-                Signup
-            </a>
-        </div>
-    </section>
+    <div class="text-center">
+      <a class="btn btn-primary" href="/signin/"> Signin </a>
+      <a class="btn btn-primary" href="/signup/"> Sign up </a>
+    </div>
+  </section>
 </main>
 
-
-    {% endblock %}
+{% endblock %}
